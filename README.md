@@ -13,7 +13,7 @@ Implementation is based on Binary Ninja. Check out the following blog post for m
 
 ## Usage
 
-* Open `samples/mirai_arm` in Binary Ninja
+* Open `sample/mirai_arm` in Binary Ninja
 * Load and execute the script
 
 To test the script with other Mirai samples, replace the function address in the following line:
