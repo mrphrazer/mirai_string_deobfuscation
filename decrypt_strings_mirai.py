@@ -36,8 +36,8 @@ for caller_function in set(target_function.callers):
 
         # 3: if IL instruction is a call
         #    and call goes to target function
-        if instruction.operation == HighLevelILOperation.HLIL_CALL and
-        instruction.dest.constant == target_function.start:
+        if (instruction.operation == HighLevelILOperation.HLIL_CALL and
+            instruction.dest.constant == target_function.start):
 
             # 4: fetch pointer to encrypted strings
             p1 = instruction.params[0]
